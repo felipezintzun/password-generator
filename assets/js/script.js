@@ -48,8 +48,8 @@ function writePassword() {
 //}
 function generatePassword (){
   var prompt = parseInt(window.prompt("How many characters would you like your password to contain?"))
-  if (prompt < 8 || prompt > 126) {
-    return "Please enter a valid number between 8 and 126";
+  if (prompt < 8 || prompt > 128) {
+    return "Please enter a valid number between 8 and 128";
     // if (password < 8) {
     //   window.alert("Please input a number between 8 and 128");
     }
